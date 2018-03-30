@@ -22,7 +22,7 @@ function update() {
 		rate_timer += percent_time;
 		rate += 0.00015625;
 		bonetrousle.rate(rate);
-		document.getElementById("speed").innerHTML = "speed: " + (rate * 100).toFixed(0) + "%";
+		document.getElementById("speed").innerHTML = "speed: " + (rate * 12).toFixed(0) + "%";
 	}
 
 	document.getElementById("undyne").style.top = ((rate * 2) - Math.random() * rate * 4) + "px";
